@@ -1,0 +1,37 @@
+# Origami-EC
+
+## About
+
+The Origami Embedded Controller firmware (Origami-EC) is a free software
+embedded controller firmware implementation. It aims to provide fully-featured
+support for a variety of embedded controller platforms, host platforms and
+devices. Origami-EC covers aspects such as power management, buttons, LEDs,
+battery charging, backlight and internal keyboards and touchpads.
+
+Origami-EC is free software: it is released under the GNU GPL version 3 or
+later.
+
+The project initially supports platforms based on the 8051 CPU, but more
+platforms might be added in the future through distinct codebases.
+
+## Contributions
+
+### Coding Style
+
+The coding style of the code base is expected to be kept consistent across
+the project. Changes made to the coding style have to be motivated and applied
+to the whole code base.
+
+### Change Proposal
+
+Changes to the Origami-EC code base can be submitted and integrated to its
+source tree after a code review process.
+
+A Signed-Off-By line is required for each proposed change, as a way to approve
+the Developer Certificate of Origin <https://developercertificate.org/>.
+
+## Compatibility
+
+Origami-EC aims at being flexible and supporting various different embedded
+controllers platforms and devices, by clearly separating the common,
+platform-specific and device-specific code.
